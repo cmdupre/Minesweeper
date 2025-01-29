@@ -1,7 +1,7 @@
 # Minesweeper (WIP)
 Minesweeper game using visual studio c++ and wxWidgets.
 
-![image](https://github.com/user-attachments/assets/9c967a57-4b45-410f-9f98-1eccc80a892a)
+![image](https://github.com/user-attachments/assets/671d090a-6a78-451c-8fc9-08b9cc86ca7b)
 
 The purpose of this application is to experiment with wxWidgets. I'll work on making it shine as I have time!
 
