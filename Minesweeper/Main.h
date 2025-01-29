@@ -1,6 +1,7 @@
 #pragma once
 
 #include "wx/wx.h"
+#include "unordered_set"
 
 class Main : public wxFrame
 {
@@ -14,10 +15,10 @@ class Main : public wxFrame
 	std::vector<bool> m_MineField;
 	bool m_FirstClick = true;
 
-	wxPoint GetPoint(int index);
-	int GetIndex(wxPoint point);
-	void Sweep(int index, int iterations);
-	std::vector<wxPoint> GetNeighbors(wxPoint selected);
+	wxPoint GetCell(int index);
+	int GetIndex(const wxPoint& point);
+	void Sweep(int index, std::unordered_set<int>& checked);
+	std::vector<wxPoint> GetNeighbors(const wxPoint& selected);
 	void OnButtonClicked(wxCommandEvent& e);
 
 public:

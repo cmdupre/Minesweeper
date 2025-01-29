@@ -50,11 +50,10 @@ void Main::OnButtonClicked(wxCommandEvent &event)
 		m_FirstClick = false;
 
 		srand(time(0));
-		int mineIndex = 0;
 		int mineCount = 0;
 		while (mineCount < s_MineCount)
 		{
-			mineIndex = rand() % 99;
+			int mineIndex = rand() % 99;
 
 			if (m_MineField[mineIndex] || mineIndex == index)
 				continue;
@@ -70,7 +69,9 @@ void Main::OnButtonClicked(wxCommandEvent &event)
 		return;
 	}
 
-	Sweep(index, 5);
+	std::unordered_set<int> checked;
+
+	Sweep(index, checked);
 
 	// can get current button from event
 	//wxButton* eventButton = static_cast<wxButton*>(eventObject);
@@ -78,7 +79,7 @@ void Main::OnButtonClicked(wxCommandEvent &event)
 	//eventButton->Disable();
 }
 
-wxPoint Main::GetPoint(int index)
+wxPoint Main::GetCell(int index)
 {
 	int x = index % s_xMax;
 	int y = index / s_yMax; // ignore fraction
@@ -86,21 +87,23 @@ wxPoint Main::GetPoint(int index)
 	return wxPoint(x, y);
 }
 
-int Main::GetIndex(wxPoint point)
+int Main::GetIndex(const wxPoint& point)
 {
 	return (point.y * s_xMax) + point.x;
 }
 
-void Main::Sweep(int index, int iterations)
+void Main::Sweep(int index, std::unordered_set<int>& checked)
 {
-	if (iterations < 0)
+	if (checked.find(index) != checked.end())
 		return;
 
-	wxPoint selected = GetPoint(index);
+	checked.insert(index);
+
+	wxPoint selected = GetCell(index);
 	std::vector<wxPoint> neighbors = GetNeighbors(selected);
 
 	int mineCount = 0;
-	for (auto neighbor : neighbors)
+	for (const auto& neighbor : neighbors)
 	{
 		int neighborIndex = GetIndex(neighbor);
 
@@ -116,11 +119,11 @@ void Main::Sweep(int index, int iterations)
 		return;
 	}
 	
-	for (auto neighbor : neighbors)
-		Sweep(GetIndex(neighbor), iterations - 1);
+	for (const auto& neighbor : neighbors)
+		Sweep(GetIndex(neighbor), checked);
 }
 
-std::vector<wxPoint> Main::GetNeighbors(wxPoint selected)
+std::vector<wxPoint> Main::GetNeighbors(const wxPoint& selected)
 {
 	std::vector<wxPoint> neighbors;
 	neighbors.reserve(9);
