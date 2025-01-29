@@ -1,268 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
-    <Filter Include="pkgs">
-      <UniqueIdentifier>{32c8d0fa-2d2a-4946-943c-c801f7b92fc8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets">
-      <UniqueIdentifier>{f074a487-6240-4510-8d20-b268ab0f927b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\lib">
-      <UniqueIdentifier>{cf8a8bf7-bc93-4ed1-8a3d-ac34fcd907ea}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\lib\mswu">
-      <UniqueIdentifier>{6f2f3457-b13a-403a-8b4b-e1d4e16ce95e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\lib\mswu\wx">
-      <UniqueIdentifier>{1e300cff-c664-426c-8c54-a055b13bb451}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\lib\mswu\wx\msw">
-      <UniqueIdentifier>{e82e3262-9ea9-4103-8890-302be4ab67c6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include">
-      <UniqueIdentifier>{7d202b8e-a75b-4a81-a07d-6c7f1f8c9ddd}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx">
-      <UniqueIdentifier>{9b6415f1-435f-4d17-997b-e2e9b564ef96}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\xrc">
-      <UniqueIdentifier>{d6d66a2b-4091-4dac-9cf0-e954be96521e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\xml">
-      <UniqueIdentifier>{7db3f6e2-0418-49c3-acd2-f47b759537e3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\x11">
-      <UniqueIdentifier>{ce398ebb-c706-4361-84f6-7b931c8d5839}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\x11\private">
-      <UniqueIdentifier>{1ee5e8ed-bd71-4d61-a3ce-dab0e746a68b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\x11\nanox">
-      <UniqueIdentifier>{7f98f274-5e85-4672-854a-16e7d6d88e2a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\x11\nanox\X11">
-      <UniqueIdentifier>{faa0d784-9688-4a6f-93df-5ddaf239ea0b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\unix">
-      <UniqueIdentifier>{3938de31-9753-480a-9a47-e1f350e5f0d8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\unix\private">
-      <UniqueIdentifier>{f0085c9c-8dcd-4799-97ed-97474a38ee19}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\univ">
-      <UniqueIdentifier>{d5439da9-5ee3-4c78-b108-78eaeed6ced2}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\stc">
-      <UniqueIdentifier>{07ed42df-ec6b-4ab1-b056-d8600f312ccf}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\richtext">
-      <UniqueIdentifier>{68997f1e-559a-4e4e-acbb-9b4c139c98db}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\ribbon">
-      <UniqueIdentifier>{6d56a8ed-f455-468a-a96a-e0106eb8a14e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\qt">
-      <UniqueIdentifier>{c15fedcc-0462-4bd2-a92d-2a45f27e973b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\qt\private">
-      <UniqueIdentifier>{4b1602a6-e298-4f0f-9ee4-eaf49eaee8e4}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\protocol">
-      <UniqueIdentifier>{47bf7abd-545c-4992-8520-2229ecada314}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\propgrid">
-      <UniqueIdentifier>{64b7f549-de0c-40e0-afae-ce09f1b20bb1}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\private">
-      <UniqueIdentifier>{e49b37d3-964a-438a-ad88-64249dcab29b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\persist">
-      <UniqueIdentifier>{07ae18e8-cb2d-4259-8988-4d0b6d975664}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\osx">
-      <UniqueIdentifier>{459131c9-f399-4d62-957c-4d2406933b20}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\osx\private">
-      <UniqueIdentifier>{c0d38d56-424b-456d-9b58-a577d61d4da3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\osx\iphone">
-      <UniqueIdentifier>{a3034a7f-5147-42a0-a1e7-322693e9a64e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\osx\iphone\private">
-      <UniqueIdentifier>{67937e93-ff06-4a91-aeba-aac7656766e3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\osx\core">
-      <UniqueIdentifier>{cb257043-7d96-43fd-b613-dbed42231b48}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\osx\core\private">
-      <UniqueIdentifier>{7553ffea-7342-40c9-a426-f109d49890aa}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\osx\cocoa">
-      <UniqueIdentifier>{4867fac7-5811-4f97-92a1-b8dd68b4d527}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\osx\cocoa\private">
-      <UniqueIdentifier>{f155b977-a9ff-4eb2-aa53-a4563b5d917b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\osx\carbon">
-      <UniqueIdentifier>{209a592d-d7f7-43d2-8266-ade4c4b31bd6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\osx\carbon\private">
-      <UniqueIdentifier>{ce16bd05-fbbb-431d-9b64-c28e851b4a86}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\msw">
-      <UniqueIdentifier>{71bef71f-1b8f-43f9-b038-77db1d44b8b4}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\msw\rt">
-      <UniqueIdentifier>{e7a13685-233b-4cf1-b0f6-60009686ede9}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\msw\rt\private">
-      <UniqueIdentifier>{b484aa07-18ec-4f65-a83b-b515b1f13ecf}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\msw\private">
-      <UniqueIdentifier>{0b5c3073-409e-41d2-8986-3636b0327151}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\msw\ole">
-      <UniqueIdentifier>{ea796850-fe78-4484-9931-74a66bffbcc1}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\motif">
-      <UniqueIdentifier>{d3222d53-e74b-43f4-b4ed-d2817f133085}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\motif\private">
-      <UniqueIdentifier>{d72c4af1-8354-46fd-b0cd-26739436fad8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\meta">
-      <UniqueIdentifier>{bcf699c9-af78-49e1-89f1-8902bfc7e2b9}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\html">
-      <UniqueIdentifier>{a38762b1-5589-4654-9caa-06a5325ae78c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\gtk">
-      <UniqueIdentifier>{f2ece422-712a-42c4-989e-fb3ad14490e7}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\gtk\private">
-      <UniqueIdentifier>{f9ea8c2f-72f5-4acc-a703-c8d96ddbc759}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\gtk\gnome">
-      <UniqueIdentifier>{bb95a456-1e99-4f64-b22e-fc1ab852eafb}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\gtk1">
-      <UniqueIdentifier>{e1ddea8b-29d2-481c-94ac-c5fdbe0478f2}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\gtk1\private">
-      <UniqueIdentifier>{e0f331ad-f1f2-40cc-8f88-f9bd72c0ac1b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\generic">
-      <UniqueIdentifier>{7b387384-e775-4c20-a9a5-042a7a919751}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\generic\private">
-      <UniqueIdentifier>{b51eb566-4e7c-42ad-8194-7b60d7efd2e5}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\dfb">
-      <UniqueIdentifier>{f864e631-c78d-4364-b23b-1c713f220923}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\dfb\private">
-      <UniqueIdentifier>{51718f6e-7100-4c8a-a364-a507459e2242}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\aui">
-      <UniqueIdentifier>{f543f3f4-59c2-449a-875f-69d0cad84f49}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\wx\android">
-      <UniqueIdentifier>{909a5137-c44d-4aed-acd4-e9ab88427ae2}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\msvc">
-      <UniqueIdentifier>{c73f17c8-ae15-407e-83d5-cfecdd718936}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\include\msvc\wx">
-      <UniqueIdentifier>{360ae7ea-c82c-43c9-acc3-8a52c8d5269f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pkgs\wxWidgets\bin">
-      <UniqueIdentifier>{8332a9f6-daa4-49e5-8184-b6a0344c1914}</UniqueIdentifier>
-    </Filter>
+    <ClCompile Include="EngineFixture.cpp" />
+    <ClCompile Include="pch.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Library Include="pkgs\wxWidgets\lib\wxzlib.lib">
-      <Filter>pkgs\wxWidgets\lib</Filter>
-    </Library>
-    <Library Include="pkgs\wxWidgets\lib\wxtiff.lib">
-      <Filter>pkgs\wxWidgets\lib</Filter>
-    </Library>
-    <Library Include="pkgs\wxWidgets\lib\wxscintilla.lib">
-      <Filter>pkgs\wxWidgets\lib</Filter>
-    </Library>
-    <Library Include="pkgs\wxWidgets\lib\wxregexu.lib">
-      <Filter>pkgs\wxWidgets\lib</Filter>
-    </Library>
-    <Library Include="pkgs\wxWidgets\lib\wxpng.lib">
-      <Filter>pkgs\wxWidgets\lib</Filter>
-    </Library>
-    <Library Include="pkgs\wxWidgets\lib\wxmsw31u_xrc.lib">
-      <Filter>pkgs\wxWidgets\lib</Filter>
-    </Library>
-    <Library Include="pkgs\wxWidgets\lib\wxmsw31u_webview.lib">
-      <Filter>pkgs\wxWidgets\lib</Filter>
-    </Library>
-    <Library Include="pkgs\wxWidgets\lib\wxmsw31u_stc.lib">
-      <Filter>pkgs\wxWidgets\lib</Filter>
-    </Library>
-    <Library Include="pkgs\wxWidgets\lib\wxmsw31u_richtext.lib">
-      <Filter>pkgs\wxWidgets\lib</Filter>
-    </Library>
-    <Library Include="pkgs\wxWidgets\lib\wxmsw31u_ribbon.lib">
-      <Filter>pkgs\wxWidgets\lib</Filter>
-    </Library>
-    <Library Include="pkgs\wxWidgets\lib\wxmsw31u_qa.lib">
-      <Filter>pkgs\wxWidgets\lib</Filter>
-    </Library>
-    <Library Include="pkgs\wxWidgets\lib\wxmsw31u_propgrid.lib">
-      <Filter>pkgs\wxWidgets\lib</Filter>
-    </Library>
-    <Library Include="pkgs\wxWidgets\lib\wxmsw31u_media.lib">
-      <Filter>pkgs\wxWidgets\lib</Filter>
-    </Library>
-    <Library Include="pkgs\wxWidgets\lib\wxmsw31u_html.lib">
-      <Filter>pkgs\wxWidgets\lib</Filter>
-    </Library>
-    <Library Include="pkgs\wxWidgets\lib\wxmsw31u_gl.lib">
-      <Filter>pkgs\wxWidgets\lib</Filter>
-    </Library>
-    <Library Include="pkgs\wxWidgets\lib\wxmsw31u_core.lib">
-      <Filter>pkgs\wxWidgets\lib</Filter>
-    </Library>
-    <Library Include="pkgs\wxWidgets\lib\wxmsw31u_aui.lib">
-      <Filter>pkgs\wxWidgets\lib</Filter>
-    </Library>
-    <Library Include="pkgs\wxWidgets\lib\wxmsw31u_adv.lib">
-      <Filter>pkgs\wxWidgets\lib</Filter>
-    </Library>
-    <Library Include="pkgs\wxWidgets\lib\wxjpeg.lib">
-      <Filter>pkgs\wxWidgets\lib</Filter>
-    </Library>
-    <Library Include="pkgs\wxWidgets\lib\wxexpat.lib">
-      <Filter>pkgs\wxWidgets\lib</Filter>
-    </Library>
-    <Library Include="pkgs\wxWidgets\lib\wxbase31u_xml.lib">
-      <Filter>pkgs\wxWidgets\lib</Filter>
-    </Library>
-    <Library Include="pkgs\wxWidgets\lib\wxbase31u_net.lib">
-      <Filter>pkgs\wxWidgets\lib</Filter>
-    </Library>
-    <Library Include="pkgs\wxWidgets\lib\wxbase31u.lib">
-      <Filter>pkgs\wxWidgets\lib</Filter>
-    </Library>
-  </ItemGroup>
-  <ItemGroup>
+    <ClInclude Include="pch.h" />
     <ClInclude Include="pkgs\wxWidgets\lib\mswu\wx\setup.h">
       <Filter>pkgs\wxWidgets\lib\mswu\wx</Filter>
     </ClInclude>
@@ -4580,15 +4323,256 @@
     <ClInclude Include="pkgs\wxWidgets\include\msvc\wx\setup.h">
       <Filter>pkgs\wxWidgets\include\msvc\wx</Filter>
     </ClInclude>
-    <ClInclude Include="app.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="main.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Engine.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="pkgs">
+      <UniqueIdentifier>{d1d2d39b-3e99-45c4-afa5-97e82b5ca5dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets">
+      <UniqueIdentifier>{9395bbc8-5a38-49f6-885d-0312aacd0ec9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\lib">
+      <UniqueIdentifier>{62f234be-36ab-447d-a67e-8a7d62d0062a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\lib\mswu">
+      <UniqueIdentifier>{5cc3c162-82e9-4398-bf92-ec01fcbeac94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\lib\mswu\wx">
+      <UniqueIdentifier>{a59f7728-89a6-4f58-86e4-77aacfbeda1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\lib\mswu\wx\msw">
+      <UniqueIdentifier>{47d2a232-3b98-439d-8f1a-cc98f03d139c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include">
+      <UniqueIdentifier>{15aba863-f33a-487b-a02c-795621a8b310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx">
+      <UniqueIdentifier>{2a8bcdd4-3e2e-498f-8396-da854b85a076}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\xrc">
+      <UniqueIdentifier>{8f1a8152-0840-4600-8be7-39810e84159d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\xml">
+      <UniqueIdentifier>{42c3cb86-4af0-497b-9cad-7c6f9e13da09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\x11">
+      <UniqueIdentifier>{88b90140-a7cf-4822-91fd-22b5344897fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\x11\private">
+      <UniqueIdentifier>{bc1882d8-25a8-47aa-97b5-a19a8d0ac1ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\x11\nanox">
+      <UniqueIdentifier>{24283939-058a-4886-8e25-1e862aa95413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\x11\nanox\X11">
+      <UniqueIdentifier>{33a08f8d-02e9-4257-9819-c475ec5aadcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\unix">
+      <UniqueIdentifier>{9ebf7d6a-1e20-46b4-b372-44337323758f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\unix\private">
+      <UniqueIdentifier>{13d9ce29-3c04-4e9a-b01d-54c833172c28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\univ">
+      <UniqueIdentifier>{5b202b87-40b0-4ad1-aa0b-29f51cfa5fdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\stc">
+      <UniqueIdentifier>{a2b03115-decd-4144-bd51-746208680fdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\richtext">
+      <UniqueIdentifier>{66b7eef4-32f6-46c9-8bcf-d6b95097ac5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\ribbon">
+      <UniqueIdentifier>{72131abd-662c-4ae7-bb62-e9233fbea679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\qt">
+      <UniqueIdentifier>{533adc42-6e7b-4aab-aaa9-a3685e2b691b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\qt\private">
+      <UniqueIdentifier>{eb43e039-0901-4d88-80de-73525ee76bd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\protocol">
+      <UniqueIdentifier>{d52c81b5-cc18-4857-aa87-85b080c49364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\propgrid">
+      <UniqueIdentifier>{ecae9f3f-cc3e-44b5-9f7b-ff5eb85f10ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\private">
+      <UniqueIdentifier>{18f64222-ece0-49b3-b9f6-b3a83fb5a5dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\persist">
+      <UniqueIdentifier>{5660fd55-6af6-44b1-9e00-70661e6a8d06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\osx">
+      <UniqueIdentifier>{d3fb5771-1c7f-447a-9787-90c2a95b431e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\osx\private">
+      <UniqueIdentifier>{a03ae274-9a23-424a-91ba-984709b7df2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\osx\iphone">
+      <UniqueIdentifier>{4e4e4417-62cb-4a1d-b285-c267c01ce105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\osx\iphone\private">
+      <UniqueIdentifier>{28a66434-405e-442c-9ab0-677ce2aca8ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\osx\core">
+      <UniqueIdentifier>{e731e6c7-0fe6-4ad3-84c0-d6e9f92677ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\osx\core\private">
+      <UniqueIdentifier>{4a4e8663-f928-4686-8df3-eb9630591500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\osx\cocoa">
+      <UniqueIdentifier>{36967640-6dde-44f7-b761-12101b82a315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\osx\cocoa\private">
+      <UniqueIdentifier>{83b6afeb-7c85-4cac-b7f6-9290aa9958f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\osx\carbon">
+      <UniqueIdentifier>{6399f5c5-9034-4ad5-ad74-f524b3b7330c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\osx\carbon\private">
+      <UniqueIdentifier>{d156e0b4-b26e-4140-b04a-3afc05f92509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\msw">
+      <UniqueIdentifier>{fb9aa2ae-9bea-4d2b-b7f9-359abc5a566c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\msw\rt">
+      <UniqueIdentifier>{450bff7e-01d4-4eb8-a2e4-ab96f13d530a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\msw\rt\private">
+      <UniqueIdentifier>{d846ea39-36fe-4e45-8b98-17681c3d7861}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\msw\private">
+      <UniqueIdentifier>{9da5623a-680c-4a91-b58d-9229308d6d19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\msw\ole">
+      <UniqueIdentifier>{a03c7d18-8860-478b-8b03-8615a2fa20e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\motif">
+      <UniqueIdentifier>{ba6c4f2a-5876-49d9-89b3-d7b1ccb0392e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\motif\private">
+      <UniqueIdentifier>{be687b5e-1478-4c3f-b8f4-27ef9833f327}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\meta">
+      <UniqueIdentifier>{1f078328-6551-403a-97fa-cd80deab0860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\html">
+      <UniqueIdentifier>{6e56b1af-efe4-4e56-b53f-120572347a7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\gtk">
+      <UniqueIdentifier>{28cc136d-1ae8-4497-b1d3-495dd964ccc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\gtk\private">
+      <UniqueIdentifier>{17c13509-04fc-4471-958c-4ebf3a670e5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\gtk\gnome">
+      <UniqueIdentifier>{7aef691f-9971-4531-8cb0-8cf30b5e03a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\gtk1">
+      <UniqueIdentifier>{1c1ac8f1-947e-4c86-802a-5555d1f88b0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\gtk1\private">
+      <UniqueIdentifier>{e1cbbb5a-26a3-4afd-af7a-7dba5b631bc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\generic">
+      <UniqueIdentifier>{ff2df7b3-6e95-4cbf-9b20-277c9b5f63fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\generic\private">
+      <UniqueIdentifier>{a42d73ca-f3f7-4058-9bcc-8d88e745e7cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\dfb">
+      <UniqueIdentifier>{d219c7ad-b3c7-4ea0-8d16-ec06d5d981ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\dfb\private">
+      <UniqueIdentifier>{0beffec2-80f8-4584-b5ef-1a970106ccbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\aui">
+      <UniqueIdentifier>{a4754e6d-c511-49cd-a33b-7a3cdfe22069}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\wx\android">
+      <UniqueIdentifier>{d768870e-5191-4ec2-a9e0-c2e1c142b776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\msvc">
+      <UniqueIdentifier>{50c5164a-b467-404b-91af-bc5243e1361d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\include\msvc\wx">
+      <UniqueIdentifier>{c7e9f70f-a251-4378-9542-7d4d3a7a0fc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkgs\wxWidgets\bin">
+      <UniqueIdentifier>{5806b175-bea7-4542-af00-f28dc4719cdf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="pkgs\wxWidgets\lib\wxzlib.lib">
+      <Filter>pkgs\wxWidgets\lib</Filter>
+    </Library>
+    <Library Include="pkgs\wxWidgets\lib\wxtiff.lib">
+      <Filter>pkgs\wxWidgets\lib</Filter>
+    </Library>
+    <Library Include="pkgs\wxWidgets\lib\wxscintilla.lib">
+      <Filter>pkgs\wxWidgets\lib</Filter>
+    </Library>
+    <Library Include="pkgs\wxWidgets\lib\wxregexu.lib">
+      <Filter>pkgs\wxWidgets\lib</Filter>
+    </Library>
+    <Library Include="pkgs\wxWidgets\lib\wxpng.lib">
+      <Filter>pkgs\wxWidgets\lib</Filter>
+    </Library>
+    <Library Include="pkgs\wxWidgets\lib\wxmsw31u_xrc.lib">
+      <Filter>pkgs\wxWidgets\lib</Filter>
+    </Library>
+    <Library Include="pkgs\wxWidgets\lib\wxmsw31u_webview.lib">
+      <Filter>pkgs\wxWidgets\lib</Filter>
+    </Library>
+    <Library Include="pkgs\wxWidgets\lib\wxmsw31u_stc.lib">
+      <Filter>pkgs\wxWidgets\lib</Filter>
+    </Library>
+    <Library Include="pkgs\wxWidgets\lib\wxmsw31u_richtext.lib">
+      <Filter>pkgs\wxWidgets\lib</Filter>
+    </Library>
+    <Library Include="pkgs\wxWidgets\lib\wxmsw31u_ribbon.lib">
+      <Filter>pkgs\wxWidgets\lib</Filter>
+    </Library>
+    <Library Include="pkgs\wxWidgets\lib\wxmsw31u_qa.lib">
+      <Filter>pkgs\wxWidgets\lib</Filter>
+    </Library>
+    <Library Include="pkgs\wxWidgets\lib\wxmsw31u_propgrid.lib">
+      <Filter>pkgs\wxWidgets\lib</Filter>
+    </Library>
+    <Library Include="pkgs\wxWidgets\lib\wxmsw31u_media.lib">
+      <Filter>pkgs\wxWidgets\lib</Filter>
+    </Library>
+    <Library Include="pkgs\wxWidgets\lib\wxmsw31u_html.lib">
+      <Filter>pkgs\wxWidgets\lib</Filter>
+    </Library>
+    <Library Include="pkgs\wxWidgets\lib\wxmsw31u_gl.lib">
+      <Filter>pkgs\wxWidgets\lib</Filter>
+    </Library>
+    <Library Include="pkgs\wxWidgets\lib\wxmsw31u_core.lib">
+      <Filter>pkgs\wxWidgets\lib</Filter>
+    </Library>
+    <Library Include="pkgs\wxWidgets\lib\wxmsw31u_aui.lib">
+      <Filter>pkgs\wxWidgets\lib</Filter>
+    </Library>
+    <Library Include="pkgs\wxWidgets\lib\wxmsw31u_adv.lib">
+      <Filter>pkgs\wxWidgets\lib</Filter>
+    </Library>
+    <Library Include="pkgs\wxWidgets\lib\wxjpeg.lib">
+      <Filter>pkgs\wxWidgets\lib</Filter>
+    </Library>
+    <Library Include="pkgs\wxWidgets\lib\wxexpat.lib">
+      <Filter>pkgs\wxWidgets\lib</Filter>
+    </Library>
+    <Library Include="pkgs\wxWidgets\lib\wxbase31u_xml.lib">
+      <Filter>pkgs\wxWidgets\lib</Filter>
+    </Library>
+    <Library Include="pkgs\wxWidgets\lib\wxbase31u_net.lib">
+      <Filter>pkgs\wxWidgets\lib</Filter>
+    </Library>
+    <Library Include="pkgs\wxWidgets\lib\wxbase31u.lib">
+      <Filter>pkgs\wxWidgets\lib</Filter>
+    </Library>
   </ItemGroup>
   <ItemGroup>
     <None Include="pkgs\wxWidgets\bin\wxzlib.pdb">
@@ -4708,17 +4692,5 @@
     <None Include="pkgs\wxWidgets\bin\wxbase314u_net_vc160_x64.dll">
       <Filter>pkgs\wxWidgets\bin</Filter>
     </None>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="app.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Engine.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

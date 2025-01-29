@@ -16,8 +16,8 @@ class Main : public wxFrame
 	bool m_FirstClick = true;
 
 	wxPoint GetCell(int index);
-	int GetIndex(const wxPoint& point);
 	void Sweep(int index, std::unordered_set<int>& checked);
+	int GetIndex(const wxPoint& cell);
 	std::vector<wxPoint> GetNeighbors(const wxPoint& selected);
 	void OnButtonClicked(wxCommandEvent& e);
 

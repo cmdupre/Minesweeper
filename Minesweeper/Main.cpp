@@ -1,4 +1,5 @@
 #include "Main.h"
+#include "Engine.h"
 
 wxBEGIN_EVENT_TABLE(Main, wxFrame)
 
@@ -87,9 +88,9 @@ wxPoint Main::GetCell(int index)
 	return wxPoint(x, y);
 }
 
-int Main::GetIndex(const wxPoint& point)
+int Main::GetIndex(const wxPoint& cell)
 {
-	return (point.y * s_xMax) + point.x;
+	return Engine::GetIndex(cell, s_xMax);
 }
 
 void Main::Sweep(int index, std::unordered_set<int>& checked)
