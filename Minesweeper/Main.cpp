@@ -82,15 +82,12 @@ void Main::OnButtonClicked(wxCommandEvent &event)
 
 wxPoint Main::GetCell(int index)
 {
-	int x = index % s_xMax;
-	int y = index / s_yMax; // ignore fraction
-
-	return wxPoint(x, y);
+	return Engine::GetCell(index, s_xMax, s_yMax);
 }
 
 int Main::GetIndex(const wxPoint& cell)
 {
-	return Engine::GetIndex(cell, s_xMax);
+	return Engine::GetIndex(cell, s_xMax, s_yMax);
 }
 
 void Main::Sweep(int index, std::unordered_set<int>& checked)
@@ -126,23 +123,5 @@ void Main::Sweep(int index, std::unordered_set<int>& checked)
 
 std::vector<wxPoint> Main::GetNeighbors(const wxPoint& selected)
 {
-	std::vector<wxPoint> neighbors;
-	neighbors.reserve(9);
-
-	for (int x = -1; x < 2; x++)
-	{
-		for (int y = -1; y < 2; y++)
-		{
-			wxPoint neighbor = wxPoint(selected.x + x, selected.y + y);
-
-			if (neighbor == selected ||
-				neighbor.x < 0 || neighbor.x >= s_xMax ||
-				neighbor.y < 0 || neighbor.y >= s_yMax)
-				continue;
-
-			neighbors.emplace_back(neighbor);
-		}
-	}
-
-	return neighbors;
+	return Engine::GetNeighbors(selected, s_xMax, s_yMax);
 }

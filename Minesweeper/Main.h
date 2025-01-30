@@ -15,10 +15,10 @@ class Main : public wxFrame
 	std::vector<bool> m_MineField;
 	bool m_FirstClick = true;
 
-	wxPoint GetCell(int index);
-	void Sweep(int index, std::unordered_set<int>& checked);
 	int GetIndex(const wxPoint& cell);
+	wxPoint GetCell(int index);
 	std::vector<wxPoint> GetNeighbors(const wxPoint& selected);
+	void Sweep(int index, std::unordered_set<int>& checked);
 	void OnButtonClicked(wxCommandEvent& e);
 
 public:
